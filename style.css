@@ -108,6 +108,7 @@
     height: 563px;
     margin-top: 24px;
     margin-left: 24px;
+    margin-bottom: 160px;
     background: #FFFFFF;
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 8px;
@@ -135,18 +136,12 @@
     margin: 50px 95px 0px 95px;
 }
 .img-2{
-    width: 243px;
-    height: 194px;
     margin: 50px 65px 0px 65px;
 }
 .img-3{
-    width: 243px;
-    height: 194px;
     margin: 50px 43px 0px 60px;
 }
 .img-4{
-    width: 243px;
-    height: 194px;
     margin: 50px 80px 0px 80px;
 }
 .img-5{
@@ -155,9 +150,7 @@
     margin: 50px 95px 0px 95px;
 }
 .img-6{
-    width: 243px;
-    height: 194px;
-    margin: 50px 95px 0px 95px;
+    margin: 60px 95px 0px 65px;
 }
 .shape-name{
     width: 100px;
@@ -165,6 +158,64 @@
     font-weight: 700;
     font-size: 25px;
     
-    
+    margin: 50px 120px 10px 150px;
     color: #414141;  
+}
+.shape-name-3{
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 115px;
+    color: #414141;  
+}
+.shape-name-4{
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 110px;
+    color: #414141;  
+}
+.shape-name-6{
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 165px;
+    color: #414141;  
+}
+.area-formula{
+   font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 130px;
+    color: #414141;
+}
+.input-1{
+    width: 95px;
+    height: 32px;
+    margin-left: 85px;
+    background: #F1F1F1;
+    border: none;
+    border-radius: 4px;
+}
+.input{
+    width: 95px;
+    height: 32px;
+    border: none;
+    background: #F1F1F1;
+    border-radius: 4px;
+}
+.calculate-btn{
+    width: 350px;
+   height: 56px;
+   margin-top: 50px;
+   margin-left: 42px;
+   background: #1090D8;
+   border-radius: 8px;
+}
+
+.btn-text{
+    font-weight: 700;
+    font-size: 20px;
+
+    padding-left: 129px;
+    padding-top: 15px;
+    color: #FFFFFF;
+
 }
