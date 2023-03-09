@@ -27,13 +27,13 @@
                 <p class="shape-name">Triangle</p>
                 <p class="area-formula">Area (A) =0.5 * b*h</p>
                 <div>
-                    <input  class="input-1" type="text" placeholder="b"> cm
-                    <input class="input" type="text" placeholder="h" > cm
+                    <input id="input-field-1"  class="input-1" type="text" placeholder="b"> cm 
+                    <input id="input-field" class="input" type="text" placeholder="h" > cm
+                    
                    
                 </div>
                 <div class="calculate-btn">
-                    <p class="btn-text">calculate</p>
-                  
+                    <button id="tri-btn" class="btn-text">calculate</button>
                 </div>
              </div>
              <div class="shape-2"> 
@@ -41,12 +41,12 @@
                <p class="shape-name">Rectangle</p>
                <p class="area-formula">Area (A) =w * l</p>
                <div>
-                <input  class="input-1" type="text" placeholder="w"> cm
-                <input class="input" type="text" placeholder="l" > cm
+                <input id="input-field-2"  class="input-1" type="text" placeholder="w"> cm
+                <input id="input-field-3"  class="input" type="text" placeholder="l" > cm
                
             </div>
             <div class="calculate-btn">
-                <p class="btn-text">calculate</p>
+                <button id="rec-btn" class="btn-text">calculate</button>
               
             </div>
              </div>
@@ -55,12 +55,12 @@
                <p class="shape-name-3">Parallelogram</p>
                <p class="area-formula">Area (A) = b*h</p>
                <div>
-                <input  class="input-1" type="text" placeholder="b"> cm
-                <input class="input" type="text" placeholder="h" > cm
+                <input id="input-field-4" class="input-1" type="text" placeholder="b"> cm
+                <input id="input-field-5" class="input" type="text" placeholder="h" > cm
                
             </div>
             <div class="calculate-btn">
-                <p class="btn-text">calculate</p>
+                <button id="parallelogram-btn" class="btn-text">calculate</button>
               
             </div>
              </div>
@@ -69,12 +69,12 @@
                 <p class="shape-name">Rhombus</p>
                 <p class="area-formula">Area (A) =0.5*d <sub>1</sub>*d <sub>2</sub></p>
                 <div>
-                    <input  class="input-1" type="text" placeholder="d1"> cm
-                    <input class="input" type="text" placeholder="d2" > cm
+                    <input id="input-btn-6"  class="input-1" type="text" placeholder="d1"> cm
+                    <input id="input-btn-7" class="input" type="text" placeholder="d2" > cm
                    
                 </div>
                 <div class="calculate-btn">
-                    <p class="btn-text">calculate</p>
+                    <button id="rhom-btn" class="btn-text">calculate</button>
                   
                 </div>
              </div>
@@ -88,7 +88,7 @@
                    
                 </div>
                 <div class="calculate-btn">
-                    <p class="btn-text">calculate</p>
+                    <button id="penta-btn" class="btn-text">calculate</button>
                   
                 </div>
              </div>
@@ -102,7 +102,7 @@
                    
                 </div>
                 <div class="calculate-btn">
-                    <p class="btn-text">calculate</p>
+                    <button id="elli-btn" class="btn-text">calculate</button>
                   
                 </div>
              </div>
@@ -110,10 +110,14 @@
         </div>
 
         <div class="area">
-            <p class="text-area">Area Calculation</p>
+            <p class="text-area">Area Calculation </p>
+            <p id="area-result" class="result">00</p>
          </div>
    
     </section>
-    
+    <script src="js/triangle.js"></script>
+    <script src="js/rectangle.js"></script>
+    <script src="js/parallelogram.js"></script>
+    <script src="js/rhambos.js"></script>
 </body>
 </html>

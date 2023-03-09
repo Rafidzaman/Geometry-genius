@@ -150,7 +150,7 @@
     margin: 50px 95px 0px 95px;
 }
 .img-6{
-    margin: 60px 95px 0px 65px;
+    margin: 60px 90px 0px 75px;
 }
 .shape-name{
     width: 100px;
@@ -216,6 +216,12 @@
 
     padding-left: 129px;
     padding-top: 15px;
-    color: #FFFFFF;
-
+    background-color:#1090D8;
+    border: none;
+    color: #F1F1F1;
+}
+.result{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
 }
