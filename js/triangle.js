@@ -24,4 +24,5 @@ document.getElementById('tri-btn').addEventListener('click' , function(){
 
    previousArea.innerText =fastPart + newArea.toFixed(2);
 
+
 })

@@ -26,14 +26,17 @@
                 <img class="img-1" src="images/triangle.png" alt="">
                 <p class="shape-name">Triangle</p>
                 <p class="area-formula">Area (A) =0.5 &#9747; b  &#9747; h</p>
+                
                 <div>
-                    <input id="input-field-1"  class="input-1" type="text" placeholder="b"> cm 
-                    <input id="input-field" class="input" type="text" placeholder="h" > cm
+                        <input id="input-field-1"  class="input-1" type="text" placeholder="b"  name="fname" required> cm 
+                        <input id="input-field" class="input" type="text" placeholder="h" name="fname" required > cm
+                        <p id="demo"></p>
+                     
                     
                    
                 </div>
                 <div class="calculate-btn">
-                    <button id="tri-btn" class="btn-text">calculate</button>
+                    <button id="tri-btn" class="btn-text" onclick="tri_validation()">calculate</button>
                 </div>
              </div>
              <div class="shape-2"> 
@@ -41,12 +44,13 @@
                <p class="shape-name">Rectangle</p>
                <p class="area-formula">Area (A) =w &#9747; l</p>
                <div>
-                <input id="input-field-2"  class="input-1" type="text" placeholder="w"> cm
-                <input id="input-field-3"  class="input" type="text" placeholder="l" > cm
+                <input id="input-field-2"  class="input-1" type="text" placeholder="w" name="fname" required> cm
+                <input id="input-field-3"  class="input" type="text" placeholder="l" name="fname" required > cm
+                <p id="demo1"></p>
                
             </div>
             <div class="calculate-btn">
-                <button id="rec-btn" class="btn-text">calculate</button>
+                <button id="rec-btn" class="btn-text" onclick="myFunction1()">calculate</button>
               
             </div>
              </div>
@@ -55,12 +59,12 @@
                <p class="shape-name-3">Parallelogram</p>
                <p class="area-formula">Area (A) = b &#9747; h</p>
                <div>
-                <input id="input-field-4" class="input-1" type="text" placeholder="b"> cm
-                <input id="input-field-5" class="input" type="text" placeholder="h" > cm
-               
+                <input id="input-field-4" class="input-1" type="text" placeholder="b" name="fname" required> cm
+                <input id="input-field-5" class="input" type="text" placeholder="h" name="fname" required > cm
+                <p id="demo2"></p>
             </div>
             <div class="calculate-btn">
-                <button id="parallelogram-btn" class="btn-text">calculate</button>
+                <button id="parallelogram-btn" class="btn-text" onclick="parallelogram_validation()" >calculate</button>
               
             </div>
              </div>
@@ -69,8 +73,8 @@
                 <p class="shape-name">Rhombus</p>
                 <p class="area-formula">Area (A) =0.5 &#9747;d <sub>1</sub>&#9747; d <sub>2</sub></p>
                 <div>
-                    <input id="input-btn-6"  class="input-1" type="text" placeholder="d1"> cm
-                    <input id="input-btn-7" class="input" type="text" placeholder="d2" > cm
+                    <input id="input-btn-6"  class="input-1" type="text" placeholder="d1" name="fname" required> cm
+                    <input id="input-btn-7" class="input" type="text" placeholder="d2" name="fname" required > cm
                    
                 </div>
                 <div class="calculate-btn">
@@ -83,8 +87,8 @@
                  <p class="shape-name">Pentagon</p>
                  <p class="area-formula">Area (A) =0.5 <span>&#9747;</span>p<span>&#9747;</span>b</p>
                  <div>
-                    <input  class="input-1" type="text" placeholder="p"> cm
-                    <input class="input" type="text" placeholder="b" > cm
+                    <input  class="input-1" type="text" placeholder="p" name="fname" required> cm
+                    <input class="input" type="text" placeholder="b"  name="fname" required> cm
                    
                 </div>
                 <div class="calculate-btn">
@@ -162,5 +166,8 @@
     <script src="js/rectangle.js"></script>
     <script src="js/parallelogram.js"></script>
     <script src="js/rhambos.js"></script>
+    <script src="js/validation-triangle.js"></script>
+    <script src="js/valida-rec.js"></script>
+    <script src="js/valida-parall.js"></script>
 </body>
 </html>

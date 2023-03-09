@@ -20,7 +20,8 @@ document.getElementById('parallelogram-btn').addEventListener('click' , function
  
  
     const newArea = (newInput1 * newInput + (previousAreaTotal));
-    previousArea.innerText = newArea.toFixed(2);
+    const fastPart= ('1. Parallelogram ');
+    previousArea.innerText = fastPart + newArea.toFixed(2);
     
 
     
