@@ -21,7 +21,7 @@ document.getElementById('rhom-btn').addEventListener('click' , function(){
  
     const newArea = (0.5 * newInput1 * newInput + (previousAreaTotal));
     const fastPart= ('4. Rhombus ');
-    previousArea.innerText = fastPart +newArea;
+    previousArea.innerText = fastPart +newArea.toFixed(2);
  
  })
  

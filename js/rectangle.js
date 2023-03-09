@@ -21,7 +21,7 @@ document.getElementById('rec-btn').addEventListener('click' , function(){
  
     const newArea = (newInput1 * newInput + (previousAreaTotal));
     const fastPart= ('2. Rectangle ');
-    previousArea.innerText =fastPart + newArea;
+    previousArea.innerText =fastPart + newArea.toFixed(2);
     
 
     
