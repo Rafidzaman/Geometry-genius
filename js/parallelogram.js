@@ -14,7 +14,7 @@ document.getElementById('parallelogram-btn').addEventListener('click' , function
     
  
     
-    const previousArea = document.getElementById('area-result');
+    const previousArea = document.getElementById('area-result2');
     const previousAreaString = previousArea.innerText;
     const previousAreaTotal = parseFloat(previousAreaString);
  

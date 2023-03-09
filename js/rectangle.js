@@ -14,13 +14,14 @@ document.getElementById('rec-btn').addEventListener('click' , function(){
     
  
     
-    const previousArea = document.getElementById('area-result');
+    const previousArea = document.getElementById('area-result1');
     const previousAreaString = previousArea.innerText;
     const previousAreaTotal = parseFloat(previousAreaString);
  
  
     const newArea = (newInput1 * newInput + (previousAreaTotal));
-    previousArea.innerText = newArea;
+    const fastPart= ('2. Rectangle ');
+    previousArea.innerText =fastPart + newArea;
     
 
     

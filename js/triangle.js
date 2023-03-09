@@ -20,6 +20,8 @@ document.getElementById('tri-btn').addEventListener('click' , function(){
 
 
    const newArea = (0.5 * newInput1 * newInput + (previousAreaTotal));
-   previousArea.innerText = newArea;
+   const fastPart= ('1. triangle ');
+
+   previousArea.innerText =fastPart + newArea;
 
 })

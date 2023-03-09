@@ -222,6 +222,20 @@
 }
 .result{
     font-weight: 700;
-    font-size: 30px;
+    font-size: 20px;
+    margin-left: 30px;
     text-align: center;
+}
+.container{
+    display: flex;
+}
+.area-cal-btn{
+    height: 30px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 100px;
+    background: aqua;
+}
+.area-details{
+    margin-top: 30px;
 }

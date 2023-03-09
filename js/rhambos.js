@@ -14,13 +14,14 @@ document.getElementById('rhom-btn').addEventListener('click' , function(){
     
  
     
-    const previousArea = document.getElementById('area-result');
+    const previousArea = document.getElementById('area-result3');
     const previousAreaString = previousArea.innerText;
     const previousAreaTotal = parseFloat(previousAreaString);
  
  
     const newArea = (0.5 * newInput1 * newInput + (previousAreaTotal));
-    previousArea.innerText = newArea;
+    const fastPart= ('4. Rhombus ');
+    previousArea.innerText = fastPart +newArea;
  
  })
  
